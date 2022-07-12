@@ -18,7 +18,8 @@ stix = "^1.2.0"
 cybox = "^2.1.0"
 mixbox = "^1.0.3"
 maec = "^4.1.0"
-stix2 = "3.0.1"
+stix2 = "^3.0.1"
+pytz = "^2022.1"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^3.8.3"
