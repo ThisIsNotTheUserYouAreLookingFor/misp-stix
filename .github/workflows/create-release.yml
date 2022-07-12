@@ -13,6 +13,10 @@ jobs:
     strategy:
       fail-fast: true
     steps:
+      - name: checkout code
+        uses: actions/checkout@v3
+        with:
+          submodules: recursive
       - name: Publish to pypi
         uses: coveooss/pypi-publish-with-poetry@v2
         with:
