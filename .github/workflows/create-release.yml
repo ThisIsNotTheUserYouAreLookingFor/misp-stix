@@ -14,7 +14,7 @@ jobs:
       fail-fast: true
     steps:
       - name: Publish to pypi
-        uses: coveooss/pypi-publish-with-poetry@v1.0.0
+        uses: coveooss/pypi-publish-with-poetry@v2
         with:
           project-name: misp-stix
           pypi-token: ${{ secrets.PYPI_TOKEN }}
